@@ -1,0 +1,23 @@
+
+.text {
+    width: 90%;
+    height: 75%;
+    background: #7C7C7C;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(0,0,0,.5);
+	border-top: 6px inset rgba(0,0,0,.5);
+	box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+}
+.text > h2, .mainText, .contact, .github {
+    font-family: "Apple";
+    text-align: center;
+}
+@media (min-width: 768px) { 
+    .text{width: 65%;}
+ }

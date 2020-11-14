@@ -1,0 +1,42 @@
+.nav {
+    margin-top: 20px;
+}
+.mains {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0,.5);
+    margin-top: 20px;
+}
+.endStatss{
+    width: 90%;
+    text-align: left;
+    display: inline-block;
+    color: white;
+    margin-top: 15px;
+    border-bottom: 2px solid #410000;
+    padding-bottom: 10px;
+    font-size: small;
+    font-weight: bold;
+}
+.statsString {
+    font-weight: normal;
+    color: yellow;
+    text-shadow: 2px 2px #410000;
+    font-family: "Apple";
+    margin-right: 12px;
+}
+h1 {
+    color: yellow;
+    text-shadow: 2px 2px #410000;
+    font-family: "Apple";
+}
+@media (min-width: 768px) { 
+    .main {justify-content: flex-start; margin-top: 40px;}
+    .endStatss{font-size: large;}
+    .mains{width: 65%;}
+    .statsString{margin-right: 20px;}
+ }
