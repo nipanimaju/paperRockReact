@@ -1,6 +1,7 @@
 .gamePlay {
     width: 100vw;
     height: 100vh;
+    overflow: "hidden"
 }
 .comp, .player {
     width: 100%;
