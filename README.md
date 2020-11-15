@@ -3,7 +3,7 @@
 
 Working page:
 
-* <https://github.com/nuxeo/nuxeo/blob/master/README.md>
+* <https://parosc.herokuapp.com/>
 
 ## Instructions
 
