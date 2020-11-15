@@ -29,7 +29,6 @@ const Result = () => {
     });
 
     setPlayerData(top.reverse())
-    console.log(top)
   }
 
 

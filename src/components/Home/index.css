@@ -184,3 +184,7 @@
         .playerStats{border-right: 6px inset rgba(255,255,255,.5);
             border-top: 6px inset rgba(255,255,255,.5);}
     }
+    @media (max-width: 320px) { 
+       .stats {font-size: x-small;}
+       .paper, .scissors, .rock {top: 0; margin-right: 10px; margin-left: 10px;}
+     }
