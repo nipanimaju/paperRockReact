@@ -46,6 +46,7 @@ const Home = () => {
        check()
   }, [life, secret]);
   const getData = async () => {
+    if (name === ""){
     let fetchedData = await DataService.getAll().limitToLast(1).once('value')
       .then(function (snapshot) {
         snapshot.forEach(function (childSnapshot) {
@@ -53,7 +54,8 @@ const Home = () => {
           setName(childSnapshot.val())
         });
       });
-    return fetchedData
+    return fetchedData}
+    else {return null}
   }
 
   const moveUp = useSpring({
