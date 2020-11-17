@@ -3,22 +3,6 @@ import './index.css';
 
  
 const Stats = (props) => { 
-  // const [playerData, setPlayerData] = useState("")
-  // useEffect(() => {
-  //   const getData = async () => {
-  //     let fetchedData = await firebase.ref(`/parosc/${props.secret}`).on("value", function(snapshot) {
-  //       setPlayerData(snapshot.val());
-  //     }, function (errorObject) {
-  //       console.log("The read failed: " + errorObject.code);
-  //     });
-  //     return fetchedData
-  //   }
-  //   getData()
-  //   return function cleanup() {
-  //     firebase.ref(`/parosc/${props.secret}`).off("value")
-  // }  
-  // }, [props.secret]);
-
 
 return(
     <div className="playerStats">

@@ -130,9 +130,9 @@ const Home = () => {
     if ((player === "paper" && comp === "scissors") || (player === "scissors" && comp === "rock") || (player === "rock" && comp === "paper")) {
       obj.loss = obj.loss + 1
       obj.games = obj.games +1
-      if ((life - dmg()) < 0) {
-        setLife(-1)
-      }else{
+    if ((life - dmg()) < 0) {
+      setLife(-1)
+    }else{
       setLife(life - dmg())}
     }
   }

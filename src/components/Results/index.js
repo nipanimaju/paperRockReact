@@ -38,6 +38,8 @@ const Result = () => {
     <div className="mains">
       <h1>TOP 100</h1>
    {playerData.map((data) => {
+     if (isNaN(data.ratio)) return null
+     else{
     return  <div className="endStatss" key={data.key}>
       <span className="statsString" >{data.name}</span>
     g: <span className="statsString">{data.games}</span>
@@ -45,7 +47,7 @@ const Result = () => {
     l: <span className="statsString">{data.loss}</span>
     t: <span className="statsString">{data.tie}</span>
     %: <span className="statsString">{data.ratio}</span>
-  </div>
+  </div>}
    })}
     </div>
   </div>)
