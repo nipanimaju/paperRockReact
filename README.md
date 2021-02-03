@@ -1,6 +1,6 @@
 
 # Paper Scissors Rock React Game v 1.0
-
+![mockup](https://github.com/nipanimaju/paperRockReact/blob/master/asd.png?raw=true "mockup")
 Working page:
 
 * <https://parosc.herokuapp.com/>
